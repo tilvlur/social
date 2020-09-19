@@ -1,0 +1,40 @@
+.cardWrapper {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    width: 500px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.userPhoto {
+    width: 100px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.innerDesc {
+    display: grid;
+    grid-template-areas:
+            'fullName location'
+            'status location';
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.fullName {
+    grid-area: fullName;
+    font-weight: bold;
+}
+
+.status {
+    grid-area: status;
+    align-self: end;
+}
+
+.location {
+    grid-area: location;
+    justify-self: end;
+    font-weight: bold;
+}

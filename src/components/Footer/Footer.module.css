@@ -1,0 +1,5 @@
+.footer {
+    grid-area: f;
+    background-color: chartreuse;
+    min-height: 100px;
+}

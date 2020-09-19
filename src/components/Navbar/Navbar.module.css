@@ -1,0 +1,20 @@
+.navbar {
+    grid-area: n;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.navbar a,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+
+.navbar a.activeLink {
+    color: gold;
+}
+
+.item {
+    color: white;
+}
